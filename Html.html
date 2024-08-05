@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daff Portfolio</title>
+    <link rel="stylesheet" href="CSS nya.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="fixed top">
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#contact">My contact</a></li>
+                    <li><a href="#javascript">What Can I Do with JavaScript?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <img src="Daffa.jpeg" style="margin: 40%;"  width="20%" lenght="20%" />
+        <section id="about" class="about">
+            <div class="container"></div>
+            <h2 align="center">About me</h2>
+            <p style="color:  #ea1d6f;" align="center" >Hello, My name is Muhammad Ervan Daffa Wardana currently i am a information system student of Computer University of Indonesia. its my first year of being a college student, in my first year im already learn many programming language such as : C, HTML,CSS and javascript </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 align="center">My education and experience</h2>
+<table>
+    <tr>
+        <th align="center">Program</th>
+        <th>Where i took it?</th>
+        <th>Years</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Senior high school</td>
+        <td>معهد التهاد السلم</td>
+        <td>2019-2022</td>
+        <td>Finish my school Graduated with good degree. already fluent in english and good at arabic</td>
+    </tr>
+    <tr>
+        <td>Bachelor degree</td>
+        <td>Computer University of Indonesia</td>
+        <td>2023-2027</td>
+        <td>Finish my Bachelor degreein 4 years and Graduated with a very good grade</td>
+    </tr>
+    <tr>
+        <td>Internship</td>
+        <td>AP2SC</td>
+        <td>2024
+            (Currently in probation)</td>
+        <td>Maintenance and take care of every IT infrastructure in Computer University of Indonesia </td>
+    </tr>
+</table>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF0090" fill-opacity="100" d="M0,96L0,256L68.6,256L68.6,96L137.1,96L137.1,128L205.7,128L205.7,224L274.3,224L274.3,160L342.9,160L342.9,288L411.4,288L411.4,224L480,224L480,0L548.6,0L548.6,160L617.1,160L617.1,160L685.7,160L685.7,320L754.3,320L754.3,256L822.9,256L822.9,160L891.4,160L891.4,160L960,160L960,128L1028.6,128L1028.6,288L1097.1,288L1097.1,128L1165.7,128L1165.7,192L1234.3,192L1234.3,96L1302.9,96L1302.9,64L1371.4,64L1371.4,256L1440,256L1440,0L1371.4,0L1371.4,0L1302.9,0L1302.9,0L1234.3,0L1234.3,0L1165.7,0L1165.7,0L1097.1,0L1097.1,0L1028.6,0L1028.6,0L960,0L960,0L891.4,0L891.4,0L822.9,0L822.9,0L754.3,0L754.3,0L685.7,0L685.7,0L617.1,0L617.1,0L548.6,0L548.6,0L480,0L480,0L411.4,0L411.4,0L342.9,0L342.9,0L274.3,0L274.3,0L205.7,0L205.7,0L137.1,0L137.1,0L68.6,0L68.6,0L0,0L0,0Z"></path></svg>
+        </section>
+
+        <section id="javascript">
+            <h2 align="center" style="color:  #ea1d6f;">What Can I Do with JavaScript?</h2>
+            <p align="center" style="color: #ea1d6f;"> I've learnt javascript for the last three months.the function of javascript is made the webview more interesting and interactive.<br>The result of my study with javaScript is the messege in the up of this web and this calculator. try the calculator please 😋  </p>
+            <div class="calculator">
+                <input type="text" id="display" disabled>
+                <div class="buttons">
+                    <button onclick="appendNumber('1')">1</button>
+                    <button onclick="appendNumber('2')">2</button>
+                    <button onclick="appendNumber('3')">3</button>
+                    <button onclick="setOperation('+')">+</button>
+                    <button onclick="appendNumber('4')">4</button>
+                    <button onclick="appendNumber('5')">5</button>
+                    <button onclick="appendNumber('6')">6</button>
+                    <button onclick="setOperation('-')">-</button>
+                    <button onclick="appendNumber('7')">7</button>
+                    <button onclick="appendNumber('8')">8</button>
+                    <button onclick="appendNumber('9')">9</button>
+                    <button onclick="setOperation('*')">*</button>
+                    <button onclick="appendNumber('0')">0</button>
+                    <button onclick="clearDisplay()">C</button>
+                    <button onclick="calculateResult()">=</button>
+                    <button onclick="setOperation('/')">/</button>
+                </div>
+                <script src="java calculator.js"></script>
+            </div>
+            <br>
+            <br>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF0090" fill-opacity="100" d="M0,224L11.4,234.7C22.9,245,46,267,69,272C91.4,277,114,267,137,272C160,277,183,299,206,261.3C228.6,224,251,128,274,122.7C297.1,117,320,203,343,202.7C365.7,203,389,117,411,117.3C434.3,117,457,203,480,229.3C502.9,256,526,224,549,192C571.4,160,594,128,617,96C640,64,663,32,686,69.3C708.6,107,731,213,754,234.7C777.1,256,800,192,823,154.7C845.7,117,869,107,891,122.7C914.3,139,937,181,960,181.3C982.9,181,1006,139,1029,133.3C1051.4,128,1074,160,1097,186.7C1120,213,1143,235,1166,250.7C1188.6,267,1211,277,1234,266.7C1257.1,256,1280,224,1303,224C1325.7,224,1349,256,1371,261.3C1394.3,267,1417,245,1429,234.7L1440,224L1440,0L1428.6,0C1417.1,0,1394,0,1371,0C1348.6,0,1326,0,1303,0C1280,0,1257,0,1234,0C1211.4,0,1189,0,1166,0C1142.9,0,1120,0,1097,0C1074.3,0,1051,0,1029,0C1005.7,0,983,0,960,0C937.1,0,914,0,891,0C868.6,0,846,0,823,0C800,0,777,0,754,0C731.4,0,709,0,686,0C662.9,0,640,0,617,0C594.3,0,571,0,549,0C525.7,0,503,0,480,0C457.1,0,434,0,411,0C388.6,0,366,0,343,0C320,0,297,0,274,0C251.4,0,229,0,206,0C182.9,0,160,0,137,0C114.3,0,91,0,69,0C45.7,0,23,0,11,0L0,0Z"></path></svg>
+        </section>
+        <section id="contact">
+            <div class="background">
+                <div class="container">
+                  <div class="screen">
+                    <div class="screen-header">
+                      <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                      </div>
+                      <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                      </div>
+                    </div>
+                    <div class="screen-body">
+                      <div class="screen-body-item left">
+                        <div class="app-title">
+                          <span>KEEP</span>
+                          <span>IN TOUCH</span>
+                          <span>WITH</span>
+                          <span>ME</span>
+                        </div>
+                        <div class="app-contact">CONTACT INFO : +62 821 2925 0791</div>
+                        <div class="app-contact">E-mail : iamrvandaff5@gmail.com</div>
+
+                      </div>
+                      <div class="screen-body-item">
+                        <div class="app-form">
+                          <div class="app-form-group">
+                            <input class="app-form-control" placeholder="NAME">
+                          </div>
+                          <div class="app-form-group">
+                            <input class="app-form-control" placeholder="EMAIL">
+                          </div>
+                          <div class="app-form-group">
+                            <input class="app-form-control" placeholder="CONTACT NO">
+                          </div>
+                          <div class="app-form-group message">
+                            <input class="app-form-control" placeholder="MESSAGE">
+                          </div>
+                          <div class="app-form-group buttons">
+                            <button class="app-form-button">CANCEL</button>
+                            <button class="app-form-button">SEND</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                     </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF0090" fill-opacity="100" d="M0,128L68.6,64L137.1,160L205.7,256L274.3,160L342.9,288L411.4,32L480,256L548.6,0L617.1,96L685.7,128L754.3,224L822.9,224L891.4,96L960,256L1028.6,288L1097.1,96L1165.7,256L1234.3,160L1302.9,288L1371.4,224L1440,160L1440,0L1371.4,0L1302.9,0L1234.3,0L1165.7,0L1097.1,0L1028.6,0L960,0L891.4,0L822.9,0L754.3,0L685.7,0L617.1,0L548.6,0L480,0L411.4,0L342.9,0L274.3,0L205.7,0L137.1,0L68.6,0L0,0Z"></path></svg>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color: #ea1d6f;">&copy; 2024 My Portfolio 🗿</p>
+    </footer>
+
+    
+</body>
+</html>
